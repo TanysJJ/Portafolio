@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+td.mi-celda { /* Corrección del nombre de la clase */
+  width: 650px !important;
+  background-color: rgba(230, 246, 255);
+  font-size: 20px;
+}
+
+table td img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(29, 28, 42, 255);
+  color: #fff;
+  text-align: center;
+}
+
+.menu {
+  background-color: rgba(29, 28, 42, 255);
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-list li {
+  position: relative;
+}
+
+.menu-list li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(29, 28, 42, 255);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 135px;
+  width: 100%;
+  background-color: rgba(29, 28, 42, 255);
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.logo-container {
+  margin-left: 0;
+}
+
+.logo-container img {
+  height: 160px;
+  width: 160px;
+  object-fit: contain;
+}
+
+.menu {
+  background-color: rgba(29, 28, 42, 255);
+  position: relative;
+  z-index: 2;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-list li {
+  position: relative;
+}
+
+.menu-list li a {
+  display: block;
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(29, 28, 42, 255);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.main {
+  flex-grow: 1;
+}
